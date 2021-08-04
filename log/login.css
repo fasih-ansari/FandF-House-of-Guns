@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Audiowide&family=Telex&display=swap');
+body{
+        background-image: url(bg1.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Times New Roman', Times, serif;
+        position: relative;
+        min-height: 100vh; 
+    }
+.head{
+    margin: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-family:  'Alegreya SC', serif;
+    
+}
+
+.head h2 a{
+    color: #c59d5f;
+    font-size: 40px; 
+    text-decoration: none;
+}
+.head h2 .fa{
+    color: #c59d5f;
+    font-size: 40px; 
+    margin-left: 30px;
+}
+.head h3 a{ 
+    color: #c59d5f;
+    font-size: 20px; 
+    text-decoration: none;
+    margin-right: 30px;
+}
+.head h3 a:hover{
+    color: white;
+    transition: 0.3s;
+}
+h1{
+margin-top:30px ;   
+font-size: 2rem;
+color: #fff;
+}
+.main{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.login-right{
+/* margin-top: 2%; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 4rem;
+width: 50%;
+color: rgb(255, 255, 255);
+background: rgba(10, 10, 10, 0.05);
+backdrop-filter: blur(10px);
+}
+/* ------------------------------ */
+
+.login-input .fa{
+    color:#c59d5f;
+    margin-left: 4px; 
+}
+.login-input{
+display: flex;
+position: relative;
+flex-direction: column;
+margin: 0.5rem 0 rem;
+width: 100%;
+}
+.login-input > input{
+background: transparent;
+color: #fff;
+padding: 0.4rem 1.8rem;
+margin-bottom: 10px;
+border: none;
+border-bottom: 4px double #fff;
+}
+.login-input > input::placeholder{
+color: #fff;
+font-size: 0.8rem;
+}
+.login-input > input:focus{
+border-bottom: 4px double #196fb1;
+}
+
+.login-input > label{
+position: absolute;
+font-size: 1.2rem;
+top: 7;
+color: #fff;
+}
+/* --------------------button--------------- */
+.login-button{
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%,-50%);
+background: transparent;
+border-radius: 20px;
+width: 15%;
+border: 2px solid #fff;
+color: #fff;
+margin-top: 1rem;
+padding: 0.4rem;
+font-weight: 600;
+transition: all 0.2s ease-in-out;
+}
+.login-button:hover{
+background: #0b283e;
+border: 2px solid #0b283e;
+
+}
+/* ----already have acount */
+.login-left{
+    margin-top: 50px;
+text-align: center;
+font-size: 10px;
+}
+.login-left h1{
+font-size: 30px;
+}
+
+.btn{
+transform: translate(-50%,-50%);
+position: absolute;
+top: 92%;
+left: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 15%;
+padding: 10px;
+background:red;
+border-radius: 20px;
+font-size: 14px;      
+}
+.btn a 
+{
+color: #fff;
+text-decoration: none;
+font-weight: 500;
+}
+.btn:hover
+{
+color: #fff;
+text-decoration: none;
+font-weight: 500;
+border:1px solid #fff ;
+background:rgb(0, 0, 0);    
+}
+
+/* ---------------------- */
+
+@media screen and (max-width: 700px) {
+    .inputname{
+        width: 18rem;
+    }
+    .login-left h1{
+        font-size: 20px;
+        }
+    .btn{            
+        width: 30%;  
+        font-size: 15px;               
+        }
+    .login-button{
+            font-size: 15px;
+            width: 30%;
+            
+        }
+
+}
+
+@media screen and (max-width: 400px) {
+    .inputname{
+        width: 10rem;
+    }
+}
+
+ @media screen and (max-width: 720px) {
+    html{
+      font-size: 80%;
+    }
+  }
+    

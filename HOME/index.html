@@ -26,38 +26,44 @@
             <input type="checkbox" id="show-menu">
             <label for="show-menu" class="menu-icon"><i class="fa fa-bars"></i></label>
             <div class="content">
-                <div class="logoo"><a href="#">F&F HOG </a></div>
+                <div><a href="../MAIN/index.html" class="logoo"><i class="fa fa-crosshairs"></i>F&F HOG</a></div>
                 <ul class="links">
-                    <li><a href="/HOME/index.html"><i class="fa fa-home"></i> HOME</a></li>
+                    <li><a href="../HOME/index.html"><i class="fa fa-home"></i> HOME</a></li>
                     <li>
-                        <a href="/CATEGORIES/index.html" class="desktop-link"><i class="fa fa-caret-down"></i> CATEGORIES</a>
+                        <a href="../CATEGORIES/index.html" class="desktop-link"><i class="fa fa-caret-down"></i>
+                            CATEGORIES</a>
                         <input type="checkbox" id="show-features">
                         <label for="show-features">CATEGORIES</label>
                         <ul>
-                            <li><a href="/dropdown/AR/index.html">ASSAULT RIFFLE</a></li>
-                            <li><a href="/dropdown/Sniper riffle/">SNIPER RIFFLE</a></li>
-                            <li><a href="/dropdown/SMG/index.html">SMG</a></li>
-                            <li><a href="/dropdown/Shotgun/index.html">SHOTGUN</a></li>
-                            <li><a href="/dropdown/Handgun/index.html">HANDGUN</a></li>
-                            <li><a href="/dropdown/Ammunition/index.html">AMMUNITION</a></li>
+                            <li><a href="../AR/index.html">AR</a></li>
+                            <li><a href="../Sniper riffle/index.html">SNIPER RIFLES</a></li>
+                            <li><a href="../SMG/index.html">SMG</a></li>
+                            <li><a href="../Shotgun/index.html">SHOTGUN</a></li>
+                            <li><a href="../Handgun/">HANDGUN</a></li>
+                            <li><a href="../Ammunition/index.html">AMMO & CUSTOM GUNS</a></li>
                         </ul>
                     </li>
-                    <li><a href="/ACCOUNT/Logindex.html"><i class="fa fa-user"></i> ACCOUNT</a></li>
-                    <li><a href="#"><i class="fa fa-shopping-cart"></i> CART</a></li>
-                    <li><a href="/ABOUT/index.html"><i class="fa fa-info"></i> ABOUT</a></li>
+                    
+                    <li><a href="http://localhost/PROJECT%20WEBSITE/Php-shopping-cart-master/Cart.php"><i class="fa fa-shopping-cart"></i> CART</a></li>
+                    <li><a href="../ABOUT/index.html"><i class="fa fa-info"></i> ABOUT</a></li>
+                    <li><a href="../log/login.php"><i class="fa fa-user"></i> ACCOUNT</a></li>
+        
                 </ul>
             </div>
             <label for="show-search" class="search-icon"><i class="fa fa-search"></i></label>
             <form action="#" class="search-box">
                 <input type="text" placeholder="Type Something to Search..." required>
-                <button type="submit" class="go-icon"><i class="fa fa-long-arrow-right"></i></button>
+                <div class="go-icon"><a href="../CATEGORIES/index.html">
+                        <i class="fas fa-long-arrow-alt-right" id="arrow"></i></a>
+                </div>
             </form>
+            
         </nav>
     </div>
     <!--header end -->
 
     <!-------------------------welcome section starts----------------------->
-    <section class="hero" id="hero">
+    <section class="welcome" id="welcome">
         <div class="conatiner">
             <h2 class="sub-headline">
                 <span class="first-letter">W</span>elcome
@@ -71,7 +77,6 @@
                 </div>
                 <div class="single-animation">
                     <h5>ready to open</h5>
-                    <a href="#" class="btn cta-btn">Explore</a>
                 </div>
             </div>
         </div>
@@ -86,21 +91,21 @@
                         <div class="image-grp1 ">
                             <div class="container-1">
                                 <img src="img/mossin.jpg" alt="Snow">
-                                <a href="/dropdown/Sniper riffle/index.html" class="btn"> SNIPERS </a>
+                                <a href="../Sniper riffle/index.html" class="btn"> SNIPERS </a>
                             </div>
                             <div class="container-1">
                                 <img src="img/shotgun1.jpg" alt="Snow">
-                                <a href="/dropdown/Shotgun/index.html" class="btn">SHOTGUN</a>
+                                <a href="../Shotgun/index.html" class="btn">SHOTGUN</a>
                             </div>
                         </div>
                         <div class="image-grp2">
                             <div class="container-1">
                                 <img src="img/uzi.jpg" alt="Snow">
-                                <a href="/dropdown/SMG/index.html" class="btn">SMG</a>
+                                <a href="../SMG/index.html" class="btn">SMG</a>
                             </div>
                             <div class="container-1">
                                 <img src="img/m416.jpg" alt="Snow">
-                                <a href="/dropdown/AR/index.html" class="btn"> ASSAULT RIFFLES</a>
+                                <a href="../AR/index.html" class="btn"> ASSAULT RIFFLES</a>
                             </div>
                         </div>
                     </div>
@@ -114,10 +119,10 @@
                         <h1 class="headline headline-dark">Our Categories</h1>
                         <div class="asterisk"><i class="fa fa-asterisk"></i></div>
                     </div>
-                    <p>F&F house of guns provides various weapons which includes close range beasts, 
-                        mid-range lethal weapons and long range DMR and bolt action riffles and 
+                    <p>F&F house of guns provides various weapons which includes close range beasts,
+                        mid-range lethal weapons and long range DMR and bolt action riffles and
                         ammunition too.</p>
-                    <a href="#" class="btn body-btn">Shop By Categories</a>
+                    <a href="../CATEGORIES/index.html" class="btn body-btn">Shop By Categories</a>
                 </div>
             </div>
         </div>
@@ -135,7 +140,7 @@
                 <div class="animate-bottom">
                     <h1 class="headline">ammo picks</h1>
                     <div class="single-animation">
-                        <a href="#" class="btn cta-btn">SHOP NOW</a>
+                        <a href="../Ammunition/index.html" class="btn cta-btn">SHOP NOW</a>
                     </div>
                 </div>
             </div>
@@ -153,10 +158,10 @@
                         <h1 class="headline headline-dark">Customized Weapon</h1>
                         <div class="asterisk"><i class="fa fa-asterisk"></i></div>
                     </div>
-                    <p>F&F house of guns provides customized gun skins. We have mastered our skills 
-                        in this field over the past couple of years and are overwhelmed by the 
+                    <p>F&F house of guns provides customized gun skins. We have mastered our skills
+                        in this field over the past couple of years and are overwhelmed by the
                         response of our beloved customers!!</p>
-                    <a href="#" class="btn body-btn">Make a reservation</a>
+                    <a href="../Ammunition/index.html" class="btn body-btn">Make a reservation</a>
                 </div>
                 <div class="image-group1">
                     <img class="animate-top" src="img/ak47 custom.jpg" alt="">
@@ -189,7 +194,7 @@
                             is a gas-operated assault rifle that is chambered for the 7.62×39mm cartridge.
                         </p>
                         <div class="btn">
-                            <a href="#" class="btn cta-btn">Buy Now</a>
+                            <a href="../AR/index.html" class="btn cta-btn">Buy Now</a>
                         </div>
                     </div>
                 </div>
@@ -206,7 +211,7 @@
                         <p>The OTs-14 Groza is a Russian selective fire bullpup assault rifle
                             chambered for the 7.62×39 round and the 9×39mm subsonic round.</p>
                         <div class="btn">
-                            <a href="#" class="btn cta-btn">Buy Now</a>
+                            <a href="../AR/index.html" class="btn cta-btn">Buy Now</a>
                         </div>
                     </div>
                 </div>
@@ -224,7 +229,7 @@
                             for the 5.56x45mm NATO cartridge.
                         </p>
                         <div class="btn">
-                            <a href="#" class="btn cta-btn">Buy Now</a>
+                            <a href="../AR/index.html" class="btn cta-btn">Buy Now</a>
                         </div>
                     </div>
                 </div>
@@ -241,7 +246,7 @@
                         <p>Arctic Warfare Magnum is a bolt-action sniper rifle manufactured by Accuracy International
                             designed for magnum rifle cartridges.</p>
                         <div class="btn">
-                            <a href="#" class="btn cta-btn">Buy Now</a>
+                            <a href="../Sniper riffle/index.html" class="btn cta-btn">Buy Now</a>
                         </div>
                     </div>
                 </div>
@@ -258,7 +263,7 @@
                         <p>The Mk 14 Enhanced Battle Rifle (EBR) is an American military
                             selective fire battle rifle chambered for the 7.62×51mm NATO cartridge</p>
                         <div class="btn">
-                            <a href="#" class="btn cta-btn">Buy Now</a>
+                            <a href="../Sniper riffle/index.html" class="btn cta-btn">Buy Now</a>
                         </div>
                     </div>
                 </div>
@@ -275,7 +280,7 @@
                         <p>The Uzi is a family of Israeli open-bolt, blowback-operated submachine guns.
                             It is one of the first weapons to incorporate a telescoping bolt design.</p>
                         <div class="btn">
-                            <a href="#" class="btn cta-btn">Buy Now</a>
+                            <a href="../SMG/index.html" class="btn cta-btn">Buy Now</a>
                         </div>
                     </div>
                 </div>
@@ -349,7 +354,7 @@
     </div>
 
 
-    <!----------------------------------know our shop------------------->
+    <!----------------------------know our shop------------------->
 
     <section class="discover-our-story">
         <div class="container">
@@ -362,10 +367,10 @@
                         <h1 class="headline headline-dark">Our Shop</h1>
                         <div class="asterisk"><i class="fa fa-asterisk"></i></div>
                     </div>
-                    <p>F&F house of guns are well knowned for their reputation in market. 
+                    <p>F&F house of guns are well knowned for their reputation in market.
                         We provide best quality products and are known for their gesture towards their customers.
-                         We provide best after sales service.</p>
-                    <a href="#" class="btn body-btn">About Us</a>
+                        We provide best after sales service.</p>
+                    <a href="../ABOUT/index.html" class="btn body-btn">About Us</a>
                 </div>
                 <div class="restaurant-info-img animate-right">
                     <img src="img/awm custom.jpg" alt="">
@@ -375,47 +380,52 @@
     </section>
     <!----------------------------- Footer----------------->
     <footer>
-        <div class="container">
-            <div class="back-to-top">
-                <a href="#hero"><i class="fas fa-chevron-up"></i></a>
+        <div class="containers">
+            <div class="sec aboutus">
+                <h2>About Us</h2>
+                <p>F&F house of guns are well-knowned for their reputation in market. <br>
+                    We provide best quality products and are known for their gesture <br>
+                    towards their customers.
+                    We provide best after sales service.
+                </p>
+                <ul class="sci">
+                    <li><a href="https://www.facebook.com/pages/Tactical%20Arms%20D.h.a%20Branch/668837349889421/"><i
+                                class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://github.com/fasih-ansari/Arms-and-Ammunition-Website.git"><i
+                                class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.instagram.com/fariya._.k/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/fasih-ur-rehman-ansari-7320a5208/" class="lin"><i
+                                class="fab fa-linkedin"></i></a></li>
+                </ul>
             </div>
-            <div class="footer-content">
-                <div class="footer-content-about animate-top">
-                    <h4>About Groza</h4>
-                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Dolore maiores, eum quo saepe repellat sed magni consequuntur minima, est, ad inventore
-                        exercitationem provident?
-                        Asperiores doloremque provident laboriosam hic placeat reprehenderit!</p>
-                </div>
-                <div class="footer-content-divider animate-bottom">
-                    <div class="social-media">
-                        <h4>Follow Along</h4>
-                        <ul class="social-icons">
-                            <li>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fab fa-facebook-square"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="newsletter-container">
-                        <h4>News Letter</h4>
-                        <form action="" class="newsletter-form">
-                            <input type="text" class="newsletter-input" placeholder="Your email address...">
-                            <button class="newsletter-btn" type="submit">
-                                <i class="fas fa-envelope"></i>
-                            </button>
-                        </form>
-                    </div>
-                </div>
+            <div class="sec quicklinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="../ABOUT/index.html">About</a></li>
+                    <li><a href="../HOME/index.html">Home</a></li>
+                    <li><a href="../CATEGORIES/index.html">Categories</a></li>
+                </ul>
+            </div>
+            <div class="sec contact">
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-map-marker"></i></span>
+                        <span>122-O-block#2 <br>
+                            P.E.C.H.S,Karachi, <br>Pakistan</span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-phone"></i></span>
+                        <p><a href="tel:12345678900">+923040368983</a> <br> <a href="tel:12345678900">02134555294</a>
+                        </p>
+                    </li>
+                </ul>
             </div>
         </div>
     </footer>
+    <div class="copyrightText">
+        <p>Copyright @ 2020 F&F House OF Guns.CO. All Rights Reserved</p>
+    </div>
     <script src="main.js"></script>
 </body>
 

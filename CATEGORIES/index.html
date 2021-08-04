@@ -23,31 +23,34 @@
             <input type="checkbox" id="show-menu">
             <label for="show-menu" class="menu-icon"><i class="fa fa-bars"></i></label>
             <div class="content">
-                <div class="logoo"><a href="#">F&F HOG </a></div>
+                <div><a href="../MAIN/index.html" class="logoo" ><i class="fa fa-crosshairs"></i>F&F HOG</a></div>
                 <ul class="links">
-                    <li><a href="/HOME/index.html"><i class="fa fa-home"></i> HOME</a></li>
+                    <li><a href="../HOME/index.html"><i class="fa fa-home"></i> HOME</a></li>
                     <li>
-                        <a href="/CATEGORIES/index.html" class="desktop-link"><i class="fa fa-caret-down"></i> CATEGORIES</a>
+                        <a href="../CATEGORIES/index.html" class="desktop-link"><i class="fa fa-caret-down"></i>
+                            CATEGORIES</a>
                         <input type="checkbox" id="show-features">
                         <label for="show-features">CATEGORIES</label>
                         <ul>
-                            <li><a href="/dropdown/AR/index.html">ASSAULT RIFFLE</a></li>
-                            <li><a href="/dropdown/Sniper riffle/">SNIPER RIFFLE</a></li>
-                            <li><a href="/dropdown/SMG/index.html">SMG</a></li>
-                            <li><a href="/dropdown/Shotgun/index.html">SHOTGUN</a></li>
-                            <li><a href="/dropdown/Handgun/index.html">HANDGUN</a></li>
-                            <li><a href="/dropdown/Ammunition/index.html">AMMUNITION</a></li>
+                            <li><a href="../AR/index.html">AR</a></li>
+                            <li><a href="../Sniper riffle/index.html">SNIPER RIFLES</a></li>
+                            <li><a href="../SMG/index.html">SMG</a></li>
+                            <li><a href="../Shotgun/index.html">SHOTGUN</a></li>
+                            <li><a href="../Handgun/index.html">HANDGUN</a></li>
+                            <li><a href="../Ammunition/index.html">AMMO & CUSTOM GUNS</a></li>
                         </ul>
                     </li>
-                    <li><a href="/ACCOUNT/Logindex.html"><i class="fa fa-user"></i> ACCOUNT</a></li>
-                    <li><a href="#"><i class="fa fa-shopping-cart"></i> CART</a></li>
-                    <li><a href="/ABOUT/index.html"><i class="fa fa-info"></i> ABOUT</a></li>
+                    <li><a href="http://localhost/PROJECT%20WEBSITE/Php-shopping-cart-master/Cart.php"><i class="fa fa-shopping-cart"></i> CART</a></li>
+                    <li><a href="../ABOUT/index.html"><i class="fa fa-info"></i> ABOUT</a></li>
+                    <li><a href="../log/login.php"><i class="fa fa-user"></i> ACCOUNT</a></li>
                 </ul>
             </div>
             <label for="show-search" class="search-icon"><i class="fa fa-search"></i></label>
             <form action="#" class="search-box">
                 <input type="text" placeholder="Type Something to Search..." required>
-                <button type="submit" class="go-icon"><i class="fa fa-long-arrow-right"></i></button>
+                <div class="go-icon"><a href="../CATEGORIES/index.html">
+                    <i class="fas fa-long-arrow-alt-right" id="arrow"></i></a>
+            </div>
             </form>
         </nav>
     </div>
@@ -55,334 +58,446 @@
 
     <!-- -----------------product scetion---------------------- -->
     <div class="main">
-        <div class="prod-head">            
-            <a href="#" class="a">Home</a> 
-            <a href="#" class="b"> /Categories</a>
+        <div class="prod-head">
+            <a href="../HOME/index.html" class="a">Home</a>
+            <a href="../CATEGORIES/index.html" class="b"> /Categories</a>
         </div>
     </div>
-        <section id="prod">
-            <div class="container">
-                <!----------------------    card1  ------------------------------>
-                <div class="card1">
-                    <div class="card">
-                        <div class="imgbox">
-                            <img src="guns/HK416.png" alt="">
-                            <h2>HK416</h2>
-                        </div>
-                        <div class="content">
-                            <div class="size">
-                                <h3>Price:120$</h3>
-                            </div>
-                            <a href="#"> ADD TO CART</a>
+    <section id="prod">
+        <div class="container">
+            <!----------------------    card1  ------------------------------>
+            <div class="card1">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="mix guns/AUG.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="size">
+                            <h3>Price:Rs.101000/=</h3>
                         </div>
                     </div>
-                    <div class="bg">
-                        <a href="#popup-article" class="detail-btn">Details</a>
-                    </div>
-                    <div id="popup-article" class="popup">
-                        <div class="popup-block"> <br><br><br>
-                            <h1 class="popup-title">HK416</h1>
-                            <div class="description">
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                    Nostrum, tenetur officiis mollitia recusandae omnis
-                                    veniam amet reprehenderit excepturi impedit provident
-                                    itaque distinctio eum accusamus, necessitatibus,
-                                    saepe quasi maiores architecto temporibus?
-                                </p>
+                </div>
+                <div class="bg">
+                    <a href="#popup-article" class="detail-btn">AUG</a>
+                </div>
+                <div id="popup-article" class="popup">
+                    <div class="popup-block"> <br><br><br>
+                        <h1 class="popup-title">AUG</h1>
+                        <div class="description">
+                            <p>
+                                The AUG is a semi-automatic shotgun manufactured by Benelli Armi SpA,
+                                and one of the "Benelli Super 90" series of semi-auto shotguns.
+                                it is available in several versions for civilian, law enforcement and military use.
+                                It features the proprietary Benelli inertia system of operation.
                                 <br>
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                    Nostrum, tenetur officiis mollitia recusandae omnis
-                                    veniam amet reprehenderit excepturi impedit provident
-                                    itaque distinctio eum accusamus, necessitatibus,
-                                    saepe quasi maiores architecto temporibus?
-                                </p>
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                    Nostrum, tenetur officiis mollitia recusandae omnis
-                                    veniam amet reprehenderit excepturi impedit provident
-                                    itaque distinctio eum accusamus, necessitatibus,
-                                    saepe quasi maiores architecto temporibus?
-                                </p>
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                    Nostrum, tenetur officiis mollitia recusandae omnis
-                                    veniam amet reprehenderit excepturi impedit provident
-                                    itaque distinctio eum accusamus, necessitatibus,
-                                    saepe quasi maiores architecto temporibus?
-                                </p>
-                            </div>
-                            <a href="#" class="popup-close"></a>
-                        </div>
-                    </div>
-                </div>
-                <!----------------------    card2  ------------------------------>
-                <div class="card1">
-                    <div class="card">
-                        <div class="imgbox">
-                            <img src="guns/Ak47.png" alt="">
-                            <h2>AK47</h2>
-                        </div>
-                        <div class="content">
-                            <div class="size">
-                                <h3>Price:120$</h3>
-                            </div>
-                            <a href="#"> ADD TO CART</a>
-                        </div>
-                    </div>
-                    <div class="bg">
-                        <a href="#popup-article" class="detail-btn">Details</a>
-                    </div>
-                    <div id="popup-article" class="popup">
-                        <div class="popup-block"> <br><br><br>
-                            <h1 class="popup-title">HK416</h1>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Nostrum, tenetur officiis mollitia recusandae omnis
-                                veniam amet reprehenderit excepturi impedit provident
-                                itaque distinctio eum accusamus, necessitatibus,
-                                saepe quasi maiores architecto temporibus?
                             </p>
-                            <a href="#" class="popup-close">Close</a>
-                        </div>
-                    </div>
-                </div>
-                <!----------------------   card3 ------------------------------>
-                <div class="card1">
-                    <div class="card">
-                        <div class="imgbox">
-                            <img src="guns/HK416.png" alt="">
-                            <h2>HK416</h2>
-                        </div>
-                        <div class="content">
-                            <div class="size">
-                                <h3>Price:120$</h3>
+                            <p id="info">
+                                <em id="specs">Specifications</em>
+                            <ul>
+                                <li> Type: Semi-automatic shotgun </li>
+                                <li>Place of origin: Italy </li>
+                                <li>Manufacturer: Benelli Armi SpA </li>
+                                <li>Variants: Field, Tactical </li>
+                                <li>Mass : 6.7 lbs </li>
+                                <li>Length : 39.75" </li>
+                                <li>Cartridge: 12 or 20-gauge shells or slugs </li>
+                                <li>Caliber : 12 or 20 gauge </li>
+                                <li>Barrels :18.5",[2] 21", 24", 26", 28" </li>
+                                <li>Action :Inertia-operated </li>
+                                <li>Feed system 3+1 (Field) or 5+1 (Tactical) tubular magazine</li>
+                            </ul>
+                            <h1 class="popup-title">Related images</h1>
+                            <div class="rimgs">
+                                <img src="mix guns/AUG.png">
+                           
                             </div>
-                            <a href="#"> ADD TO CART</a>
-                        </div>
-                    </div>
-                    <div class="bg">
-                        <a href="#popup-article" class="detail-btn">Details</a>
-                    </div>
-                    <div id="popup-article" class="popup">
-                        <div class="popup-block"> <br><br><br>
-                            <h1 class="popup-title">HK416</h1>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Nostrum, tenetur officiis mollitia recusandae omnis
-                                veniam amet reprehenderit excepturi impedit provident
-                                itaque distinctio eum accusamus, necessitatibus,
-                                saepe quasi maiores architecto temporibus?
                             </p>
-                            <a href="#" class="popup-close">Close</a>
+                            <br>
                         </div>
-                    </div>
-                </div>
-                <!----------------------   card4 ------------------------------>
-                <div class="card1">
-                    <div class="card">
-                        <div class="imgbox">
-                            <img src="guns/GROZA.png" alt="">
-                            <h2>GROZA</h2>
-                        </div>
-                        <div class="content">
-                            <div class="size">
-                                <h3>Price:120$</h3>
-                            </div>
-                            <a href="#"> ADD TO CART</a>
-                        </div>
-                    </div>
-                    <div class="bg">
-                        <a href="#popup-article" class="detail-btn">Details</a>
-                    </div>
-                    <div id="popup-article" class="popup">
-                        <div class="popup-block"> <br><br><br>
-                            <h1 class="popup-title">HK416</h1>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Nostrum, tenetur officiis mollitia recusandae omnis
-                                veniam amet reprehenderit excepturi impedit provident
-                                itaque distinctio eum accusamus, necessitatibus,
-                                saepe quasi maiores architecto temporibus?
-                            </p>
-                            <a href="#" class="popup-close">Close</a>
-                        </div>
-                    </div>
-                </div>
-                <!----------------------   card5 ------------------------------>
-                <div class="card1">
-                    <div class="card">
-                        <div class="imgbox">
-                            <img src="guns/Styer AUG.png" alt="">
-                            <h2>STYER AUG</h2>
-                        </div>
-                        <div class="content">
-                            <div class="size">
-                                <h3>Price:120$</h3>
-                            </div>
-                            <a href="#"> ADD TO CART</a>
-                        </div>
-                    </div>
-                    <div class="bg">
-                        <a href="#popup-article" class="detail-btn">Details</a>
-                    </div>
-                    <div id="popup-article" class="popup">
-                        <div class="popup-block"> <br><br><br>
-                            <h1 class="popup-title">HK416</h1>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Nostrum, tenetur officiis mollitia recusandae omnis
-                                veniam amet reprehenderit excepturi impedit provident
-                                itaque distinctio eum accusamus, necessitatibus,
-                                saepe quasi maiores architecto temporibus?
-                            </p>
-                            <a href="#" class="popup-close">Close</a>
-                        </div>
-                    </div>
-                </div>
-                <!----------------------   card6 ------------------------------>
-                <div class="card1">
-                    <div class="card">
-                        <div class="imgbox">
-                            <img src="guns/M16A4 RIFFLE.png" alt="">
-                            <h2>M16A4</h2>
-                        </div>
-                        <div class="content">
-                            <div class="size">
-                                <h3>Price:120$</h3>
-                            </div>
-                            <a href="#"> ADD TO CART</a>
-                        </div>
-                    </div>
-                    <div class="bg">
-                        <a href="#popup-article" class="detail-btn">Details</a>
-                    </div>
-                    <div id="popup-article" class="popup">
-                        <div class="popup-block"> <br><br><br>
-                            <h1 class="popup-title">HK416</h1>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Nostrum, tenetur officiis mollitia recusandae omnis
-                                veniam amet reprehenderit excepturi impedit provident
-                                itaque distinctio eum accusamus, necessitatibus,
-                                saepe quasi maiores architecto temporibus?
-                            </p>
-                            <a href="#" class="popup-close">Close</a>
-                        </div>
-                    </div>
-                </div>
-                <!----------------------   card7------------------------------>
-
-                <div class="card1">
-                    <div class="card">
-                        <div class="imgbox">
-                            <img src="guns/HK416.png" alt="">
-                            <h2>AWM</h2>
-                        </div>
-                        <div class="content">
-                            <div class="size">
-                                <h3>Price:120$</h3>
-                            </div>
-                            <a href="#"> ADD TO CART</a>
-                        </div>
-                    </div>
-                    <div class="bg">
-                        <a href="#popup-article" class="detail-btn">Details</a>
-                    </div>
-                    <div id="popup-article" class="popup">
-                        <div class="popup-block"> <br><br><br>
-                            <h1 class="popup-title">HK416</h1>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Nostrum, tenetur officiis mollitia recusandae omnis
-                                veniam amet reprehenderit excepturi impedit provident
-                                itaque distinctio eum accusamus, necessitatibus,
-                                saepe quasi maiores architecto temporibus?
-                            </p>
-                            <a href="#" class="popup-close">Close</a>
-                        </div>
-                    </div>
-                </div>
-                <!----------------------   card8 ------------------------------>
-                <div class="card1">
-                    <div class="card">
-                        <div class="imgbox">
-                            <img src="guns/AK47.png" alt="">
-                            <h2>HK416</h2>
-                        </div>
-                        <div class="content">
-                            <div class="size">
-                                <h3>
-                                    Price:120$
-                                </h3>
-                            </div>
-                            <a href="#"> ADD TO CART</a>
-                        </div>
-                    </div>
-                    <div class="bg">
-                        <a href="#popup-article" class="detail-btn">Details</a>
-                    </div>
-                    <div id="popup-article" class="popup">
-                        <div class="popup-block"> <br><br><br>
-                            <h1 class="popup-title">HK416</h1>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Nostrum, tenetur officiis mollitia recusandae omnis
-                                veniam amet reprehenderit excepturi impedit provident
-                                itaque distinctio eum accusamus, necessitatibus,
-                                saepe quasi maiores architecto temporibus?
-                            </p>
-                            <a href="#" class="popup-close">Close</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!----------------------   card9 ------------------------------>
-                <div class="card1">
-                    <div class="card">
-                        <div class="imgbox">
-                            <img src="guns/VSS1.png" alt="">
-                            <h2>HK416666</h2>
-                        </div>
-                        <div class="content">
-                            <div class="size">
-                                <h3>Price:120$</h3>
-                            </div>
-                            <a href="#"> ADD TO CART</a>
-                        </div>
-                    </div>
-                    <div class="bg">
-                        <a href="#popup-article" class="detail-btn">Details</a>
-                    </div>
-                    <div id="popup-article" class="popup">
-                        <div class="popup-block"> <br><br><br>
-                            <h1 class="popup-title">HK416</h1>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Nostrum, tenetur officiis mollitia recusandae omnis
-                                veniam amet reprehenderit excepturi impedit provident
-                                itaque distinctio eum accusamus, necessitatibus,
-                                saepe quasi maiores architecto temporibus?
-                            </p>
-                            <a href="#" class="popup-close"></a>
-                        </div>
+                        <a href="#" class="popup-close"></a>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- pagenation -->
-        <div id="pagenation">
-            <ul class="page">
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li><a href="#">6</a></li>
-            </ul>
+            <!----------------------    card2  ------------------------------>
+            <div class="card1">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="mix guns/AWM.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="size">
+                            <h3>Price:Rs.222000/=</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg">
+                    <a href="#popup-article2" class="detail-btn">AWM</a>
+                </div>
+                <div id="popup-article2" class="popup">
+                    <div class="popup-block"> <br><br><br>
+                        <h1 class="popup-title">AWM</h1>
+                        <div class="description">
+                            <p>
+                                The AWM is a pump action sniper, used for hunting and self-defense. It has a
+                                one-piece receiver and buttstock, made of steel-reinforced polymer. This model is
+                                intended for defensive purposes. With an 18½" barrel, and rifle or ghost- ring (diopter)
+                                sights, it is easier to wield and quicker to sight than hunting models.
+                            </p>
+                            <p id="info">
+                                <em id="specs">Specifications</em> </li>
+                            <ul>
+                                <li> Type: Pump action sniper </li>
+                                <li>Place of origin : Italy </li>
+                                <li>Manufacturer: Benelli </li>
+                                <li>Variants: Supernova </li>
+                                <li>Mass: 8 lbs. (3.63kg) </li>
+                                <li>Length: 45.5-49.5 in. (1,155.7-1,257.3mm) </li>
+                                <li>Barrel length: 18½-28 in. (609.6-711.2mm) </li>
+                                <li>Cartridge: 12-gauge shotshell, 20-Gauge Shotshell</li>
+                                <li>Action: Pump-action</li>
+                                <li>Feed system: 4+1 internal magazine
+                            </ul>
+                            <h1 class="popup-title">Related images</h1>
+                            <div class="rimgs">
+                                <img src="mix guns/AWM.png">
+                                <img src="../HOME/img/awm custom.jpg">
+                         
+                            </div>
+                            </p>
+                        </div>
+                        <a href="#" class="popup-close">Close</a>
+                    </div>
+                </div>
+            </div>
+            <!----------------------   card3 ------------------------------>
+            <div class="card1">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="mix guns/Barret M95.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="size">
+                            <h3>Price:Rs.106000/=</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg">
+                    <a href="#popup-article3" class="detail-btn">Barret M95</a>
+                </div>
+                <div id="popup-article3" class="popup">
+                    <div class="popup-block"> <br><br><br>
+                        <h1 class="popup-title">Barret M95</h1>
+                        <div class="description">
+                            <p>
+                                The Barret M95 is a pump-action AR manufactured by Remington Arms Company,
+                                LLC. It is widely used by the public for sport shooting, hunting, and self-defense and
+                                used by law enforcement and military organizations worldwide.
+                            </p>
+                            <p id="info">
+                                <em id="specs">Specifications</em> <br>
+                            <ul>
+                                <li> Type: AR </li>
+                                <li>Place of origin: United States </li>
+                                <li>Manufacturer: Remington Arms </li>
+                                <li>Variants: Wingmaster, Express, Marine, SPS, SPS-T, XCS, Tac-14, Super Mag </li>
+                                <li>Mass : 7.0 lb (3.2 kg) to 8.0 lb (3.6 kg) </li>
+                                <li>Length : 26.3 in (670 mm) to 50.5 in (1,280 mm) </li>
+                                <li>Barrel length: 14 in (360 mm) to 30 in (760 mm) </li>
+                                <li>Cartridge: 12 gauge, 16 gauge, 20 gauge, 28 gauge, or .410 bore <br>
+                                <li>Action: Pump-action </li>
+                            </ul>
+                            <h1 class="popup-title">Related images</h1>
+                            <div class="rimgs">
+                                <img src="mix guns/Barret M95.png">
+                             
+                            </div>
+                            </p>
+                        </div>
+                        <a href="#" class="popup-close">Close</a>
+                    </div>
+                </div>
+            </div>
+            <!----------------------   card4 ------------------------------>
+            <div class="card1">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="mix guns/gun5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="size">
+                            <h3>Price:Rs.45000/=</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg">
+                    <a href="#popup-article4" class="detail-btn">SAR9 optics</a>
+                </div>
+                <div id="popup-article4" class="popup">
+                    <div class="popup-block"> <br><br><br>
+                        <h1 class="popup-title">SAR9 optics</h1>
+                        <div class="description">
+                            <p>
+                                The SAR9 will shoot any shell, from light 24-gram Olympic loads through heavy 3 ½-inch
+                                magnums, interchangeably without adjustment. The exterior has laser checkering and
+                                engraving. The high-strength aluminum action is anodized in colors–green, blue, bronze,
+                                or black–or camo-clad for its various specialized applications.
+                            </p>
+                            <h1 class="popup-title">Related images</h1>
+                            <div class="rimgs">
+                                <img src="mix guns/gun5.png">
+                      
+                            </div>
+                        </div>
+                        <a href="#" class="popup-close">Close</a>
+                    </div>
+                </div>
+            </div>
+            <!----------------------   card5 ------------------------------>
+            <div class="card1">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="mix guns/pp90.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="size">
+                            <h3>Price:Rs.45000/=</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg">
+                    <a href="#popup-article5" class="detail-btn">PP-90</a>
+                </div>
+                <div id="popup-article5" class="popup">
+                    <div class="popup-block"> <br><br><br>
+                        <h1 class="popup-title">PP-90</h1>
+                        <div class="description">
+                            <p>
+                                One of the first features incorporated was a detachable trigger group for easy
+                                replacement in the heat of a match. The PP90 is available in multiple configurations and
+                                gauges for various sporting clays, trap, and skeet disciplines.
+                            </p>
+                            <p id="info">
+                                <em id="specs">Specifications</em> <br>
+                            <ul>
+                                <li>Type : SMG </li>
+                                <li>Model: PP90</li>
+                                <li>Origin :Perazzi</li>
+                                <li>Barrel:34"</li>
+                                <li>Stock:15"</li>
+                                <li>Chokes:Multi-Teague & Multi-Teague</li>
+                                <li>Weight:8lb.8oz.</li>
+                                <li>Origin:Italy</li>
+                                <li>Cased:Makers-Plastic</li>
+                                <li>Chamber:2 3/4</li>
+                            </ul>
+                            <h1 class="popup-title">Related images</h1>
+                            <div class="rimgs">
+                                <img src="mix guns/pp90.png">
+                          
+                            </div>
+                            </p>
+                        </div>
+                        <a href="#" class="popup-close">Close</a>
+                    </div>
+                </div>
+            </div>
+            <!----------------------   card6 ------------------------------>
+            <div class="card1">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="mix guns/HK416.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="size">
+                            <h3>Price:Rs.110000/=</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg">
+                    <a href="#popup-article6" class="detail-btn">HK416</a>
+                </div>
+                <div id="popup-article6" class="popup">
+                    <div class="popup-block"> <br><br><br>
+                        <h1 class="popup-title">HK416</h1>
+                        <div class="description">
+                            <p>
+                                The HK416 is an over and under shotgun. It is manufactured, marketed, and
+                                distributed by Fabbrica d'Armi Pietro Beretta, in Gardone Val Trompia, Italy. It is one
+                                of the few Beretta shotguns that has a trigger unit that is detachable in the field, the
+                                DT in its name standing for detachable trigger. It combines features between the older
+                                Beretta ASE and the newer Beretta 682 model and is targeted at their competition market.
+                            </p>
+                            <p id="info">
+                                <em id="specs">Specifications</em> <br>
+                                <li>Type: Double barreled shotgun</li>
+                                <li>Place of origin : Italy</li>
+                                <li>Manufacturer: Beretta</li>
+                                <li>Mass: 8 lbs.</li>
+                                <li>Barrel length: 28, 30, 32 or 34 inches</li>
+                                <li>Caliber : 12 gauge</li>
+                            <h1 class="popup-title">Related images</h1>
+                            <div class="rimgs">
+                                <img src="mix guns/HK416.png">
+                                <img src="../HOME/img/m416.jpg">
+                            </div>
+                            </p>
+                        </div>
+                        <a href="#" class="popup-close">Close</a>
+                    </div>
+                </div>
+            </div>
+            <!----------------------   card7------------------------------>
+            <div class="card1">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="mix guns/BERETTA A400.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="size">
+                            <h3>Price:Rs.67000/=</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg">
+                    <a href="#popup-article7" class="detail-btn">BERETTA A400</a>
+                </div>
+                <div id="popup-article7" class="popup">
+                    <div class="popup-block"> <br><br><br>
+                        <h1 class="popup-title">BERETTA A400</h1>
+                        <div class="description">
+                            <p>
+                                The Beretta A400 is an over and under shotgun. It is manufactured, marketed, and
+                                distributed by Fabbrica d'Armi Pietro Beretta, in Gardone Val Trompia, Italy. It is one
+                                of the few Beretta shotguns that has a trigger unit that is detachable in the field, the
+                                DT in its name standing for detachable trigger. It combines features between the older
+                                Beretta ASE and the newer Beretta 682 model and is targeted at their competition market.
+                            </p>
+                            <p id="info">
+                                <em id="specs">Specifications</em> <br>
+                                <li>Type: Double barreled shotgun</li>
+                                <li>Place of origin : Italy</li>
+                                <li>Manufacturer: Beretta</li>
+                                <li>Mass: 8 lbs.</li>
+                                <li>Barrel length: 28, 30, 32 or 34 inches</li>
+                                <li>Caliber : 12 gauge</li>
+                            <h1 class="popup-title">Related images</h1>
+                            <div class="rimgs">
+                                <img src="mix guns/BERETTA A400.png">
+                              
+                            </div>
+                            </p>
+                        </div>
+                        <a href="#" class="popup-close">Close</a>
+                    </div>
+                </div>
+            </div>
+            <!----------------------   card8 ------------------------------>
+            <div class="card1">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="mix guns/gun7.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="size">
+                            <h3>Price:Rs.31000/=</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg">
+                    <a href="#popup-article8" class="detail-btn">Stoeger STR-9S</a>
+                </div>
+                <div id="popup-article8" class="popup">
+                    <div class="popup-block"> <br><br><br>
+                        <h1 class="popup-title">Stoeger STR-9S</h1>
+                        <div class="description">
+                            <p>
+                                The STR-95 is an over and under shotgun. It is manufactured, marketed, and
+                                distributed by Fabbrica d'Armi Pietro Beretta, in Gardone Val Trompia, Italy. It is one
+                                of the few Beretta shotguns that has a trigger unit that is detachable in the field, the
+                                DT in its name standing for detachable trigger. It combines features between the older
+                                Beretta ASE and the newer Beretta 682 model and is targeted at their competition market.
+                            </p>
+                            <p id="info">
+                                <em id="specs">Specifications</em> <br>
+                                <li>Type: Pistol</li>
+                                <li>Place of origin : Italy</li>
+                                <li>Manufacturer: Beretta</li>
+                                <li>Mass: 8 lbs.</li>
+                                <li>Barrel length: 28, 30, 32 or 34 inches</li>
+                                <li>Caliber : 12 gauge</li>
+                            <h1 class="popup-title">Related images</h1>
+                            <div class="rimgs">
+                                <img src="mix guns/gun7.png">
+                          
+                            </div>
+                            </p>
+                        </div>
+                        <a href="#" class="popup-close">Close</a>
+                    </div>
+                </div>
+            </div>
+            <!----------------------   card9 ------------------------------>
+            <div class="card1">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="mix guns/Fn p90.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="size">
+                            <h3>Price:Rs.60000/=</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg">
+                    <a href="#popup-article9" class="detail-btn">Fn p90</a>
+                </div>
+                <div id="popup-article9" class="popup">
+                    <div class="popup-block"> <br><br><br>
+                        <h1 class="popup-title">Fn p90</h1>
+                        <div class="description">
+                            <p>
+                                The FNP90 is an over and under shotgun. It is manufactured, marketed, and
+                                distributed by Fabbrica d'Armi Pietro Beretta, in Gardone Val Trompia, Italy. It is one
+                                of the few Beretta shotguns that has a trigger unit that is detachable in the field, the
+                                DT in its name standing for detachable trigger. It combines features between the older
+                                Beretta ASE and the newer Beretta 682 model and is targeted at their competition market.
+                            </p>
+                            <p id="info">
+                                <em id="specs">Specifications</em> <br>
+                                <li>Type: SMG</li>
+                                <li>Place of origin : Italy</li>
+                                <li>Manufacturer: Beretta</li>
+                                <li>Mass: 8 lbs.</li>
+                                <li>Barrel length: 28, 30, 32 or 34 inches</li>
+                                <li>Caliber : 12 gauge</li>
+                            <h1 class="popup-title">Related images</h1>
+                            <div class="rimgs">
+                                <img src="mix guns/Fn p90.png">
+           
+                            </div>
+                            </p>
+                        </div>
+                        <a href="#" class="popup-close">Close</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div><a href="../shoppingCart/index.html" target="blank"><button>Finish</button></a></div>
+    </section>
+    <!-- pagenation -->
+    <div id="pagenation">
+        <ul class="page">
+            <li><a href="../AR/index.html">1</a></li>
+            <li><a href="../Sniper riffle/index.html">2</a></li>
+            <li><a href="../SMG/index.html">3</a></li>
+            <li><a href="../Shotgun/index.html">4</a></li>
+            <li><a href="../Handgun/index.html">5</a></li>
+            <li><a href="../Ammunition/index.html">6</a></li>
+        </ul>
+    </div>
+    <div>
+        <a href="http://localhost/PROJECT%20WEBSITE/Php-shopping-cart-master/Cart.php" target="blank"><button class="btn cta-btn"> Proceed to
+                Checkout</button></a>
+    </div>
     <!-- -------------FOOOTER------------------ -->
     <footer>
         <div class="containers">
@@ -394,19 +509,21 @@
                     We provide best after sales service.
                 </p>
                 <ul class="sci">
-                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/pages/Tactical%20Arms%20D.h.a%20Branch/668837349889421/"><i
+                                class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://github.com/fasih-ansari/Arms-and-Ammunition-Website.git"><i
+                                class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.instagram.com/fariya._.k/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/fasih-ur-rehman-ansari-7320a5208/" class="lin"><i
+                                class="fab fa-linkedin"></i></a></li>
                 </ul>
             </div>
             <div class="sec quicklinks">
                 <h2>Quick Links</h2>
                 <ul>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Categories</a></li>
-                    <li><a href="">Terms & Conditions</a></li>
-                    <li><a href="">Phone</a></li>
+                    <li><a href="../ABOUT/index.html">About</a></li>
+                    <li><a href="../HOME/index.html">Home</a></li>
+                    <li><a href="../CATEGORIES/index.html">Categories</a></li>
                 </ul>
             </div>
             <div class="sec contact">
@@ -429,6 +546,7 @@
     <div class="copyrightText">
         <p>Copyright @ 2020 F&F House OF Guns.CO. All Rights Reserved</p>
     </div>
+
 
 </body>
 

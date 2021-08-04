@@ -12,6 +12,16 @@
     --secondary-font-color: #c59d5f;
     --body-font-color:rgb(90, 89, 89);
 }
+::-webkit-scrollbar
+{
+  width: 13px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(rgb(7, 7, 29),#c59d5f);
+}
+::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(transparent,gray);
+}
 body{
     box-sizing: border-box;
     margin: 0;
@@ -19,18 +29,12 @@ body{
     font-family: var(--body-font); 
     background:rgb(7, 7, 29);  
 }
-#logo{
-    position: absolute;
-    top: -5%;
-    left: -2%;
-    width: 15%;
-}
-#logoo{
-    position: absolute;
-    top: 8%;
-    left:12%;
-    font-size: 50px;   
-}
+.logoo {
+    color: var(--secondary-font-color);
+    font-size: 40px;
+    font-family: var(--main-font);
+    font-weight: bold;    
+  }
 .heading {
     position: absolute;
     top: 40%;
@@ -173,7 +177,7 @@ body{
    
 }
 .s .tt:hover{
-    background: #00acee;
+    background:grey;
 }
 .s .lin:hover{
     background: #0e76a8;
@@ -198,19 +202,14 @@ body{
     transition: all 1s;
 }
 .s a:nth-child(1) i{
-    color: lightcoral;
-}
-
-.s a:nth-child(1) i{
     color: #1da0f0;
 }
-.s a:nth-child(3) i{
-    color:teal;
-}
 .s a:nth-child(2) i{
-    color: #692094;
-    
+    color: #692094;    
     font-weight: 600;
+}
+.s a:nth-child(3) i{
+    color:rgb(17, 68, 68);
 }
 .s a:nth-child(4) i{
     color:blue;
@@ -592,10 +591,12 @@ a{
     transition: 0.3s ease-in-out;
 }
 .box .container .card .content h2{ 
-    color: black;
+    font-family: var(--main-font);
+    color: var(--secondary-font-color);
     margin-top: -10px;
 }
 .box .container .card .content p{  
+    font-family: var(--body-font);
     color: var(--main-font-color-dark);
     text-align: left;   
     margin-top: 13px;
@@ -712,10 +713,7 @@ button {
     background-color: var(--secondary-font-color);
 }
 .accordion_container .container1 .accordion .body {
-    /* background-image: linear-gradient(45deg, #ffffff96, #ffffff4f);*/
-    background: rgba(225,225,225,0.2); 
     padding: 0 20px;
-    backdrop-filter: blur(15px);
     color: white;
     font-size: 17px;
     line-height: 1.5;
@@ -730,47 +728,3 @@ button {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .parallax2{
-    background: url('img/b2.jpg') no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 500px;
-} */
-
-
-/**light*/
-/*.neonlight
-{
-    width: 12px;
-    height: 200px;
-    background: #fff;
-    border-radius: 15px;
-    position: absolute;
-    left:50%;
-    top: 25%;
-    transform: translate(-50%,-50%);
-    box-shadow: 0 0 40px 5px #fff ,
-                inset 0 0 20px #fff,
-                0 0 160px 20px #08f,
-                inset 0 0 20px #08f,
-                0 0 320px 30px #08f,
-                inset 0 0 20px #08f;
-    animation: run 10s linear infinite;
-}*/

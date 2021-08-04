@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Audiowide&family=Telex&display=swap');
+body{
+    font-family:  'Alegreya SC', serif;
+    background:rgb(7, 7, 29);
+    }
+.head{
+    margin: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-family:  'Alegreya SC', serif;    
+}
+.head h2 a{
+    color: #c59d5f;
+    font-size: 40px; 
+    text-decoration: none;
+}
+.head h2 .fa{
+    color: #c59d5f;
+    font-size: 40px; 
+    margin-left: 30px;
+}
+.head h3 a{ 
+    color: #c59d5f;
+    font-size: 20px; 
+    text-decoration: none;
+    margin-right: 30px;
+}
+.head h3 a:hover{
+    color: white;
+    transition: 0.3s;
+}
+h1{
+    font-size: 2rem;
+    color: #c59d5f;
+    text-align: center;
+}
+h2{
+    font-weight: lighter;    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    width: 50%;
+    color: rgb(255, 255, 255);
+    background: rgba(225,225,225,0.1);
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'alegerya sc'; */
+}
+.login-right p{
+    font-size: 18px;
+}
+.fa{
+    color:#c59d5f;
+    padding: 8px;
+}
+
+.btn{
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    margin-left: 43%;    
+  }
+  .cta-btn{
+    font-family: 'alegreya sc';
+    font-size: 1.1rem;
+    background-color:#c59d5f;
+    padding: .9rem 1.8rem;
+    color: var(--main-font-color-dark);
+    border-radius: .4rem;
+    transition: background-color .5s;
+  }
+  .cta-btn:hover,
+  .cta-btn:focus{
+    color: black;
+    background-color:#ffffff;
+}
+.typing{
+    font-size: 2rem;
+    width: 15em;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid rgba(255, 255, 255, 0.75);
+    text-transform: capitalize;
+    font-weight: 500;  
+    color: var(--secondary-font-color);  
+}
+.typing{
+    animation: typo 5s steps(30) 1s 1 normal both ,
+    blinktextcursor 500ms steps(30) infinite normal;
+}
+@keyframes typo{
+    from {
+        width: 0;
+    }
+    to {
+        width: 19em;
+    }
+}
+@keyframes blinktextcursor{
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to{
+        border-right-color: transparent;
+    }
+}

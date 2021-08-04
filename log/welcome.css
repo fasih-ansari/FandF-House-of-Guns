@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Audiowide&family=Telex&display=swap');
+body{
+    background:rgb(7, 7, 29);
+    font-family:  'Alegreya SC', serif;
+}
+.head{
+    margin: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background: rgba(225, 225, 225, 0.123);
+}
+
+.head h2 a{
+    color: #c59d5f;
+    font-size: 40px; 
+    text-decoration: none;
+}
+.head h2 .fa{
+    color: #c59d5f;
+    font-size: 40px; 
+    margin-left: 30px;
+}
+.head h3 a{ 
+    color: #c59d5f;
+    font-size: 20px; 
+    text-decoration: none;
+    margin-right: 30px;
+}
+.head h3 a:hover{
+    color: white;
+    transition: 0.3s;
+}
+/* ----------section----------------------- */
+.section{
+    padding:  0 8rem;
+}
+.section h1{
+    color: white;
+}
+.section h2{
+    color: white;
+    font-size: 40px;
+}
+.para{
+    font-size: 18px;
+    color: #c59d5f;   
+    text-align: justify; 
+}
+.btn{
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: -2px;
+}
+.section a {
+    text-decoration: none;
+}
+.cta-btn{
+    font-size: 1.1rem;
+    background-color: #fff;
+    padding: .9rem 1.8rem;
+    color: var(--body-font-color);
+    border-radius: .4rem;
+    transition: background-color .5s;
+}
+.cta-btn:hover,
+.cta-btn:focus{
+    color: #fff;
+    background-color:#c59d5f;
+}
